@@ -1,9 +1,9 @@
 import "./projects.css";
-import Img1 from "../../assets/portfolio2.jpg";
-import Img2 from "../../assets/portfolio1.jpg";
-import Img3 from "../../assets/portfolio3.jpg";
-import Img4 from "../../assets/portfolio4.jpg";
-import Img5 from "../../assets/portfolio5.png";
+import Img1 from "../../assets/guess.png";
+import Img2 from "../../assets/dash.png";
+import Img3 from "../../assets/fadl.png";
+import Img4 from "../../assets/Juicy.png";
+// import Img5 from "../../assets/todo.png";
 
 const portfolioData = [
   {
@@ -30,24 +30,11 @@ const portfolioData = [
   {
     id: 4,
     image: Img4,
-    title: "Elfadl",
-    github: "https://github.com/Abd-elrahmam/template-3.git",
-    demo: "https://abd-elrahmam.github.io/template-3/",
+    title: "Juice",
+    github: "https://github.com/Abd-elrahmam/Juicy.git",
+    demo: "https://abd-elrahmam.github.io/Juicy/",
   },
-  {
-    id: 5,
-    image: Img5,
-    title: "To-Do-List",
-    github: "https://github.com/Abd-elrahmam/to-do.git",
-    demo: "https://abd-elrahmam.github.io/to-do/",
-  },
-  {
-    id: 1,
-    image: Img1,
-    title: "Guess The Word",
-    github: "https://github.com/Abd-elrahmam/Guess-The-Word.git",
-    demo: "https://abd-elrahmam.github.io/Guess-The-Word/",
-  },
+
 ];
 
 function Projects() {
